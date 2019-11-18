@@ -7,9 +7,10 @@ function y = isConnected(V, n, U)
         JungiosAukstines = zeros(1, n);
 
         for tn = 1:n
-            for BriaunosNr = 1:m
+            for BriaunosNr = 1:m %galima bandyti pakeisti to ismember metoda
                 if(U(BriaunosNr,1) == V(tn) || U(BriaunosNr,2) == V(tn))
                     JungiosAukstines(tn) = 1;
+                    break;
                 end       
             end
         end
