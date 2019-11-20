@@ -29,6 +29,8 @@ function printResults(V, U, Vi , Ui, arjungus, SkaiciavimuTrukme)
         disp('Grafikas nëra jungus');
     end
     
+    if(SkaiciavimuTrukme ~= 0)
     disp(' skaiciavimai truko : ');
     disp(SkaiciavimuTrukme);
+    end
 end
